@@ -1,0 +1,273 @@
+COMPREHENSIVE QA MODEL RESULTS
+======================================================================
+Model: BERT-base-uncased (Optimized)
+Training Samples: 10033
+Test Samples: 1053
+Epochs: 5
+Batch Size: 16
+Learning Rate: 2e-05
+Max Sequence Length: 384
+
+======================================================================
+PERFORMANCE SUMMARY
+======================================================================
+Best F1 Score: 0.6361 (Epoch 4)
+Best EM Score: 0.4920 (Epoch 4)
+Final F1 Score: 0.6295
+Final EM Score: 0.4920
+Final Training Loss: 0.6541
+
+======================================================================
+EPOCH-BY-EPOCH RESULTS
+======================================================================
+Epoch | Train Loss | Start Acc | End Acc | F1 Score | EM Score | LR
+----------------------------------------------------------------------
+    1 |     3.0024 |    0.2624 |  0.2931 |   0.5529 |   0.4080 | 1.78e-05
+    2 |     1.4577 |    0.5422 |  0.6017 |   0.6279 |   0.4790 | 1.33e-05
+    3 |     1.0246 |    0.6450 |  0.7069 |   0.6276 |   0.4890 | 8.89e-06
+    4 |     0.7876 |    0.7131 |  0.7664 |   0.6361 |   0.4920 | 4.44e-06
+    5 |     0.6541 |    0.7498 |  0.8064 |   0.6295 |   0.4920 | 0.00e+00
+
+======================================================================
+SAMPLE PREDICTIONS (Top 30)
+======================================================================
+
+[Sample 1]
+Question: Which NFL team represented the AFC at Super Bowl 50?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: carolina panthers
+True Answer: denver broncos
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 2]
+Question: Which NFL team represented the NFC at Super Bowl 50?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: carolina panthers
+True Answer: carolina panthers
+F1: 1.000 | EM: 1.000
+--------------------------------------------------
+
+[Sample 3]
+Question: Where did Super Bowl 50 take place?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: levis stadium
+True Answer: santa clara california
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 4]
+Question: Which NFL team won Super Bowl 50?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: carolina panthers
+True Answer: denver broncos
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 5]
+Question: What color was used to emphasize the 50th anniversary of the Super Bowl?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: roman numerals
+True Answer: gold
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 6]
+Question: What was the theme of Super Bowl 50?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: roman numerals
+True Answer: golden anniversary
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 7]
+Question: What is the AFC short for?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: super bowl fifty was an american football game to determine the champion of the national football league
+True Answer: american football conference
+F1: 0.200 | EM: 0.000
+--------------------------------------------------
+
+[Sample 8]
+Question: What was the theme of Super Bowl 50?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: roman numerals
+True Answer: golden anniversary
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 9]
+Question: What does AFC stand for?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: national football league
+True Answer: american football conference
+F1: 0.333 | EM: 0.000
+--------------------------------------------------
+
+[Sample 10]
+Question: Who won Super Bowl 50?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: denver broncos defeated the national football conference n f c c champion carolina panthers
+True Answer: denver broncos
+F1: 0.250 | EM: 0.000
+--------------------------------------------------
+
+[Sample 11]
+Question: What venue did Super Bowl 50 take place in?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: levis stadium
+True Answer: levis stadium
+F1: 1.000 | EM: 1.000
+--------------------------------------------------
+
+[Sample 12]
+Question: What city did Super Bowl 50 take place in?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: san francisco bay area santa clara california
+True Answer: santa clara
+F1: 0.444 | EM: 0.000
+--------------------------------------------------
+
+[Sample 13]
+Question: If Roman numerals were used, what would Super Bowl 50 have been called?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: super bowl l
+True Answer: super bowl l
+F1: 1.000 | EM: 1.000
+--------------------------------------------------
+
+[Sample 14]
+Question: What city did Super Bowl 50 take place in?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: san francisco bay area santa clara california
+True Answer: santa clara
+F1: 0.444 | EM: 0.000
+--------------------------------------------------
+
+[Sample 15]
+Question: What stadium did Super Bowl 50 take place in?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: levis stadium
+True Answer: levis stadium
+F1: 1.000 | EM: 1.000
+--------------------------------------------------
+
+[Sample 16]
+Question: What team was the AFC champion?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: carolina panthers
+True Answer: denver broncos
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 17]
+Question: What team was the NFC champion?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: carolina panthers
+True Answer: carolina panthers
+F1: 1.000 | EM: 1.000
+--------------------------------------------------
+
+[Sample 18]
+Question: Who won Super Bowl 50?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: denver broncos defeated the national football conference n f c c champion carolina panthers
+True Answer: denver broncos
+F1: 0.250 | EM: 0.000
+--------------------------------------------------
+
+[Sample 19]
+Question: Which team won Super Bowl 50.
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: carolina panthers
+True Answer: denver broncos
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 20]
+Question: Where was Super Bowl 50 held?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: levis stadium
+True Answer: santa clara california
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 21]
+Question: The name of the NFL championship game is?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: super bowl fifty
+True Answer: super bowl
+F1: 0.800 | EM: 0.000
+--------------------------------------------------
+
+[Sample 22]
+Question: What 2015 NFL team one the AFC playoff?
+Context: super bowl fifty was an american football game to determine the champion of the national football league nfl for the twenty fifteen season. the american football conference a f c c champion denver bro...
+Predicted: carolina panthers
+True Answer: denver broncos
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 23]
+Question: How many appearances have the Denver Broncos made in the Super Bowl?
+Context: the panthers finished the regular season with the fifteen to one record and quarterback can newton was named the n f l most valuable player and the p. they defeated the arizona cardinals forty nine to...
+Predicted: twelve to four
+True Answer: eight
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 24]
+Question: What team did the Panthers defeat?
+Context: the panthers finished the regular season with the fifteen to one record and quarterback can newton was named the n f l most valuable player and the p. they defeated the arizona cardinals forty nine to...
+Predicted: arizona cardinals
+True Answer: arizona cardinals
+F1: 1.000 | EM: 1.000
+--------------------------------------------------
+
+[Sample 25]
+Question: Who did the Broncos prevent from going to the Super Bowl?
+Context: the panthers finished the regular season with the fifteen to one record and quarterback can newton was named the n f l most valuable player and the p. they defeated the arizona cardinals forty nine to...
+Predicted: new england patriots
+True Answer: new england patriots
+F1: 1.000 | EM: 1.000
+--------------------------------------------------
+
+[Sample 26]
+Question: Who did the Panthers beat in the NFC Championship Game?
+Context: the panthers finished the regular season with the fifteen to one record and quarterback can newton was named the n f l most valuable player and the p. they defeated the arizona cardinals forty nine to...
+Predicted: arizona cardinals
+True Answer: arizona cardinals
+F1: 1.000 | EM: 1.000
+--------------------------------------------------
+
+[Sample 27]
+Question: Who lost to the Broncos in the AFC Championship?
+Context: the panthers finished the regular season with the fifteen to one record and quarterback can newton was named the n f l most valuable player and the p. they defeated the arizona cardinals forty nine to...
+Predicted: arizona cardinals
+True Answer: new england patriots
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
+
+[Sample 28]
+Question: Who were the defending Super Bowl champions?
+Context: the panthers finished the regular season with the fifteen to one record and quarterback can newton was named the n f l most valuable player and the p. they defeated the arizona cardinals forty nine to...
+Predicted: new england patriots
+True Answer: new england patriots
+F1: 1.000 | EM: 1.000
+--------------------------------------------------
+
+[Sample 29]
+Question: How many teams have been in the Super Bowl eight times?
+Context: the panthers finished the regular season with the fifteen to one record and quarterback can newton was named the n f l most valuable player and the p. they defeated the arizona cardinals forty nine to...
+Predicted: twelve to four
+True Answer: four
+F1: 0.500 | EM: 0.000
+--------------------------------------------------
+
+[Sample 30]
+Question: How many teams have played in the Super Bowl eight times?
+Context: the panthers finished the regular season with the fifteen to one record and quarterback can newton was named the n f l most valuable player and the p. they defeated the arizona cardinals forty nine to...
+Predicted: fifteen to one
+True Answer: four
+F1: 0.000 | EM: 0.000
+--------------------------------------------------
